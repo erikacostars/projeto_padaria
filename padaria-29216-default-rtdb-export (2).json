@@ -1,0 +1,123 @@
+{
+  "funcionarios": [
+    null,
+    {
+      "cargo": "Atendente de Caixa",
+      "email": "leticia@gmail.com",
+      "nome": "Letícia",
+      "telefone": "(88)1111-1111"
+    },
+    {
+      "cargo": "Atendente de Caixa",
+      "email": "paulo@gmail.com",
+      "nome": "Paulo",
+      "telefone": "(88)2222-2222"
+    },
+    {
+      "cargo": "Atendente de Caixa",
+      "email": "cesar@gmail.com",
+      "nome": "Cesar",
+      "telefone": "(88)3333-3333"
+    },
+    {
+      "cargo": "Atendente de Caixa",
+      "email": "catia@gmail.com",
+      "nome": "Cátia",
+      "telefone": "(88)4444-4444"
+    },
+    {
+      "cargo":"Atendente de Balcao",
+      "email":"clara@gmail.com",
+      "nome":"Clara",
+      "telefone":"(88)5555-5555"
+    },
+    {
+      "cargo": "Atendente de Balcao",
+      "email": "ricardo@gmail.com",
+      "nome": "Ricardo",
+      "telefone": "(88)6666-6666"
+    },
+    {
+      "cargo": "Confeiteira",
+      "email": "cintia@gmail.com",
+      "nome": "Cintia",
+      "telefone": "(88)7777-7777"
+    },
+    {
+      "cargo": "Confeiteira",
+      "email": "karen@gmail.com",
+      "nome": "Karen",
+      "telefone": "(88)8888-8888"
+    },
+    {
+      "cargo": "Padeiro",
+      "email": "fabio@gmail.com",
+      "nome": "Fábio",
+      "telefone": "(88)9999-9999"
+    },
+    {
+      "cargo": "Padeiro",
+      "email": "mario@gmail.com",
+      "nome": "Mário",
+      "telefone": "(88)1010-1010"
+    }
+  ],
+  "produtos": [
+    null,
+    {
+      "nome": "Bolo de Chocolate",
+      "preço": "25,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Bolo de Cenoura",
+      "preço": "30,00",
+      "tamanho": "G"
+    },
+    {
+      "nome": "Bolo Mole",
+      "preço": "25,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Pão de Sal",
+      "preço": "5,00",
+      "tamanho": "3 unidade"
+    },
+    {
+      "nome": "Pão Recheado",
+      "preço": "25,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Torta de Limão",
+      "preço": "25,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Torta de Frango",
+      "preço": "30,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Pudim",
+      "preço": "30,00",
+      "tamanho": "M"
+    },
+    {
+      "nome": "Sonho de Padaria",
+      "preço": "3,00",
+      "tamanho": "1 unidade"
+    },
+    {
+      "nome": "Cupcake",
+      "preço": "4,00",
+      "tamanho": "1 unidade"
+    },
+    {
+      "nome": "Pão Doce",
+      "preço": "5,00",
+      "tamanho": "3 unidade"
+    }
+  ]
+}

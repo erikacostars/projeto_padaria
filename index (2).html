@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.firebase.com/js/client/1.0.6/firebase.js"
+    ></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyAAvgwKIojDCRLEYOR0HZx3HIsXZoXlv_A',
+        authDomain: 'padaria-29216.firebaseapp.com',
+        databaseURL: 'https://padaria-29216-default-rtdb.firebaseio.com',
+        projectId: 'padaria-29216',
+        storageBucket: 'padaria-29216.appspot.com',
+        messagingSenderId: '949333918457',
+        appId: '1:949333918457:web:63163621a844cc11c21828',
+        measurementId: 'G-JY3GQ62R6P'
+      }
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig)
+      firebase.analytics()
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="consulta.js"></script>
+  </head>
+
+  <body class="navbar" style="background-color: #ffd884;">
+
+    <nav  class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://2.bp.blogspot.com/-9RtuZtV-IFg/U3W6KcdDwRI/AAAAAAAAAEM/xO7kerUWCok/s1600/chao-5294.jpg" alt="Logo" width="50" height="50" class="navbar-brand" href="#">Padaria RM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+
+      <div class="card" style="width: 18rem; margin-top: 5rem;">
+        <img src="https://th.bing.com/th/id/R.473fc3b7e1006e0fa059d323730ace4f?rik=qFh8ff%2bv4FQ49w&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sonho de Padaria</h5>
+          <p class="card-text">Uma deliciosa opção para adoçar seu dia!!</p>
+          <a href="#" class="btn btn-primary">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-top: 5rem;">
+        <img src="https://th.bing.com/th/id/OIP.CijgB1BV7lRxxMAUvmuSRgHaE8?pid=ImgDet&w=768&h=512&rs=1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bolo de Chocolate</h5>
+          <p class="card-text">Bolo de todos os tipos para a família toda!!</p>
+          <a href="#" class="btn btn-primary">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-top: 5rem;">
+        <img src="https://i.pinimg.com/736x/07/fc/73/07fc739fb10708b7b3279d0de7c4c9e0.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Torta</h5>
+          <p class="card-text">Tortas de diversos sabores para você escolher!!</p>
+          <a href="#" class="btn btn-primary">Ver mais</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-top: 5rem;">
+        <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/10/pudim-de-padaria-receita.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pudim</h5>
+          <p class="card-text">Delicioso pudim de leite para você e sua família!!</p>
+          <a href="#" class="btn btn-primary">Ver mais</a>
+        </div>
+      </div>
+
+
+
+    <table class="table table-striped" id="tbFuncionarios" style="margin-top: 5rem;">
+        <h1 style="margin-top: 5rem; margin-left: 30rem;">Dados dos Funcionários</h1>
+      <tr>
+        <th>ID</th>
+        <th>Funcionários</th>
+        <th>Telefone</th>
+        <th>Cargo</th>
+        <th>Email</th>
+      </tr>
+    </table>
+
+   
+
+    <table class="table table-striped" id="tbProdutos" style="margin-top: 5rem;">
+      <h1 style="margin-top: 5rem; margin-left: 30rem;">Dados dos Produtos</h1>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Tamanho</th>
+      <th>Preço</th>
+    </tr>
+  </table>
+
+  </body>
+</html>
